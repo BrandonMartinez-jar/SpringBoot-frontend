@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Lista de Gestores</h2>
+  <div *ngIf="managers.length>0; else loading">
+    <ul>
+      <app-manager *ngFor="let manager of managers" [manager]="manager"></app-manager>
+    </ul>
+  </div>
+  <ng-template #loading let-user>
+    <p>Loading...</p>
+  </ng-template>
+    
+</div>
