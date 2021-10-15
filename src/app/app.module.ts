@@ -8,7 +8,6 @@ import { ManagerService } from './services/manager.service';
 import { ManagerComponent } from './components/manager/manager.component';
 import { HomeComponent } from './components/home/home.component';
 import { ListComponent } from './components/list/list.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     ManagerComponent,
     HomeComponent,
     ListComponent,
-    NotFoundComponent
   ],
   imports: [
     BrowserModule,
